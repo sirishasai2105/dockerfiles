@@ -1,5 +1,5 @@
 FROM almalinux:9
-ARG course="aws with devops" \
+ENV course="aws with devops" \
     trainer="sivakumar" \
     duration="120hrs"
 RUN echo "course:$course  trainer:$trainer  duration:$duration"
